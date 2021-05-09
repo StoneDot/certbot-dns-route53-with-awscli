@@ -1,8 +1,9 @@
 # Summary
 Utility image based on `certbot/dns-route53` with AWS CLI version 1.
-You can pull image from [ECS repository ](https://gallery.ecr.aws/stonedot/certbot-dns-route53-with-awscli).
+You can pull the image from [ECS repository ](https://gallery.ecr.aws/stonedot/certbot-dns-route53-with-awscli).
 
 Please refer:
+
 * [certbot/dns-route53](https://hub.docker.com/r/certbot/dns-route53)
 * [AWS CLI version 1](https://github.com/aws/aws-cli)
 
