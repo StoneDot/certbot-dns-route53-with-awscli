@@ -9,6 +9,8 @@ Please refer:
 
 # Usage
 ```shell
+# Authenticate Docker to an Amazon ECR registry 
+aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws
 # Start shell environment
 docker run --rm -ti -v "$HOME/.aws:/root/.aws:ro" public.ecr.aws/stonedot/certbot-dns-route53-with-awscli:v1.15.0
 ```
